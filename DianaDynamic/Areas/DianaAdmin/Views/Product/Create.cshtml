@@ -1,0 +1,64 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, AuthoringTagHelpers
+@using DianaDynamic.Areas.DianaAdmin.ViewModels.Product
+@model CreateProduct
+<div class="container" style="display:flex; justify-content:center; margin-left:300px ; margin-top:300px ; background-color:darkred">
+    <p>Create Product</p>
+    <form method="post" enctype="multipart/form-data">
+        <div class="row">
+            <div class="mb-3 col-md-4">
+                <label asp-for="Name"  class="form-label">Name</label>
+                <input class="form-control" asp-for="Name">
+                <span asp-validation-for="Name" style="color:red"></span>
+            </div>
+            <div class="mb-3 col-md-4">
+                <label asp-for="Price" class="form-label">Price</label>
+                <input class="form-control" asp-for="Price">
+                <span asp-validation-for="Price" style="color:red"></span>
+            </div>
+        </div>
+        <div class="row align-items-center ">
+            <div class="mb-3  col-md-4">
+                <label asp-for="Description" class="form-label">Description</label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Description" style="color:red"></span>
+            </div>
+            <div class="mb-3 col-sm-3">
+                <label class="form-label">Category</label>
+                <select class="form-select" aria-label="Default select example" asp-for=CategoryId asp-items="new SelectList(ViewBag.Categories,nameof(Category.Id),nameof(Category.Name))">
+                    <option selected>Open this select menu</option>
+                </select>
+                <span asp-validation-for="CategoryId" style="color:red"></span>
+
+            </div>
+            <div class="mb-3 col-sm-3">
+                <label class="form-label">Colors</label>
+                <select class="form-select" aria-label="Default select example" asp-for=ColorIds asp-items="new SelectList(ViewBag.colors,nameof(Color.Id),nameof(Color.Name))">
+                </select>
+                <span asp-validation-for="ColorIds" style="color:red"></span>
+            </div>
+            <div class="mb-3 col-sm-3">
+                <label class="form-label">Materials</label>
+                <select class="form-select" aria-label="Default select example" asp-for=MaterialIds asp-items="new SelectList(ViewBag.materials,nameof(Material.Id),nameof(Material.Name))">
+                </select>
+                <span asp-validation-for="MaterialIds" style="color:red"></span>
+            </div>
+            <div class="mb-3 col-sm-3">
+                <label class="form-label">Sizes</label>
+                <select class="form-select" aria-label="Default select example" asp-for=SizeIds asp-items="new SelectList(ViewBag.sizes,nameof(Size.Id),nameof(Size.Name))">
+                </select>
+                <span asp-validation-for="SizeIds" style="color:red"></span>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="mb-3 col-md-4">
+                <label asp-for="Photos" class="form-label">Photos</label>
+                <input class="form-control" asp-for="Photos">
+                <span asp-validation-for="Photos" style="color:red"></span>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+</div>

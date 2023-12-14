@@ -14,11 +14,6 @@ namespace DianaDynamic.Controllers
             _env = env;
         }
 
-        public async Task<IActionResult> Index()
-        {
-
-            return View();
-        }
 
         public IActionResult Detail (int Id)
         {
@@ -30,15 +25,15 @@ namespace DianaDynamic.Controllers
                 .ThenInclude(m => m.Material)
                 .Include(ps => ps.ProductSizes)
                 .ThenInclude(s => s.Size)
-                .Where(p => p.Id == Id);
-
+                .Where(p => p.Id == Id).FirstOrDefault(p => p.Id == Id);
+            return View(product);
 
         }
 
 
     }
 }
-            Product product =  _context.products
+/*            Product product =  _context.products
             .Where(p => p.Id == Id)
             .Include(p => p.productColors)
             .ThenInclude(p => p.Color)
@@ -46,4 +41,4 @@ namespace DianaDynamic.Controllers
             .ThenInclude(p => p.Material)
             .Include(p => p.ProductSizes)
             .ThenInclude(p => p.Size)
-            .Include(p => p.Images).ToList();
+            .Include(p => p.Images).ToList();*/
