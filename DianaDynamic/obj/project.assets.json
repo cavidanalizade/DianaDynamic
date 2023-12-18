@@ -11284,19 +11284,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\II novbe\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\II novbe\\source\\repos\\DianaDynamic\\DianaDynamic\\DianaDynamic.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\DianaDynamic\\DianaDynamic\\DianaDynamic\\DianaDynamic.csproj",
       "projectName": "DianaDynamic",
-      "projectPath": "C:\\Users\\II novbe\\source\\repos\\DianaDynamic\\DianaDynamic\\DianaDynamic.csproj",
-      "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\II novbe\\source\\repos\\DianaDynamic\\DianaDynamic\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\DianaDynamic\\DianaDynamic\\DianaDynamic\\DianaDynamic.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\DianaDynamic\\DianaDynamic\\DianaDynamic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\II novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11368,7 +11368,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

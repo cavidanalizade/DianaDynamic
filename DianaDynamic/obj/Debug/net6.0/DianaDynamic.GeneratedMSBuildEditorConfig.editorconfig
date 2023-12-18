@@ -5,56 +5,57 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DianaDynamic
 build_property.RootNamespace = DianaDynamic
-build_property.ProjectDir = C:\Users\II novbe\source\repos\DianaDynamic\DianaDynamic\
+build_property.ProjectDir = C:\Users\User\Desktop\DianaDynamic\DianaDynamic\DianaDynamic\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\II novbe\source\repos\DianaDynamic\DianaDynamic
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\DianaDynamic\DianaDynamic\DianaDynamic
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/II novbe/source/repos/DianaDynamic/DianaDynamic/Areas/DianaAdmin/Views/Dashboard/Index.cshtml]
+[C:/Users/User/Desktop/DianaDynamic/DianaDynamic/DianaDynamic/Areas/DianaAdmin/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGlhbmFBZG1pblxWaWV3c1xEYXNoYm9hcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/DianaDynamic/DianaDynamic/Areas/DianaAdmin/Views/Product/Create.cshtml]
+[C:/Users/User/Desktop/DianaDynamic/DianaDynamic/DianaDynamic/Areas/DianaAdmin/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGlhbmFBZG1pblxWaWV3c1xQcm9kdWN0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/DianaDynamic/DianaDynamic/Areas/DianaAdmin/Views/Product/Index.cshtml]
+[C:/Users/User/Desktop/DianaDynamic/DianaDynamic/DianaDynamic/Areas/DianaAdmin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGlhbmFBZG1pblxWaWV3c1xQcm9kdWN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/DianaDynamic/DianaDynamic/Areas/DianaAdmin/Views/Shared/_Layout.cshtml]
+[C:/Users/User/Desktop/DianaDynamic/DianaDynamic/DianaDynamic/Areas/DianaAdmin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGlhbmFBZG1pblxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/DianaDynamic/DianaDynamic/Areas/DianaAdmin/Views/Shared/_ViewImports.cshtml]
+[C:/Users/User/Desktop/DianaDynamic/DianaDynamic/DianaDynamic/Areas/DianaAdmin/Views/Shared/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGlhbmFBZG1pblxWaWV3c1xTaGFyZWRcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/DianaDynamic/DianaDynamic/Areas/DianaAdmin/Views/_ViewStart.cshtml]
+[C:/Users/User/Desktop/DianaDynamic/DianaDynamic/DianaDynamic/Areas/DianaAdmin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGlhbmFBZG1pblxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/DianaDynamic/DianaDynamic/Views/Home/Index.cshtml]
+[C:/Users/User/Desktop/DianaDynamic/DianaDynamic/DianaDynamic/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/DianaDynamic/DianaDynamic/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/Desktop/DianaDynamic/DianaDynamic/DianaDynamic/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/DianaDynamic/DianaDynamic/Views/_ViewImports.cshtml]
+[C:/Users/User/Desktop/DianaDynamic/DianaDynamic/DianaDynamic/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/DianaDynamic/DianaDynamic/Views/_ViewStart.cshtml]
+[C:/Users/User/Desktop/DianaDynamic/DianaDynamic/DianaDynamic/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/II novbe/source/repos/DianaDynamic/DianaDynamic/Views/Shared/_Layout.cshtml]
+[C:/Users/User/Desktop/DianaDynamic/DianaDynamic/DianaDynamic/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-h6e0xn4gb2

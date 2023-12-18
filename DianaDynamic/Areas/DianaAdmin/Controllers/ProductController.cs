@@ -1,6 +1,7 @@
 ﻿using DianaDynamic.Areas.DianaAdmin.ViewModels.Product;
 using DianaDynamic.Helper;
 using DianaDynamic.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -14,11 +15,16 @@ namespace DianaDynamic.Areas.DianaAdmin.Controllers
     {
         AppDBC _context;
         private readonly IWebHostEnvironment _env;
-
-        public ProductController(AppDBC context, IWebHostEnvironment env)
+        private readonly UserManager<AppUser> _userManager;
+        private readonly SignInManager<AppUser> _signinManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        public ProductController(AppDBC context, IWebHostEnvironment env, UserManager<AppUser> userManager , SignInManager<AppUser> signinManager , RoleManager<IdentityRole> roleManager)
         {
             _context = context;
             _env = env;
+            _userManager = userManager;
+            _signinManager = signinManager;
+            _roleManager = roleManager;
         }
 
         public async Task<IActionResult> Index()
@@ -129,7 +135,42 @@ namespace DianaDynamic.Areas.DianaAdmin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+/*        public IActionResult Update(int id)
+        {
+            bool resultId = _context.products.Any(p => p.Id == id);
+            if (!resultId)
+            {
+                return View();
+            }
+*//*
+            Product product = _context.products.Find(id);
+            product.
+            UpdateProduct updateProduct = new UpdateProduct()
+            {
+                Id = id,
+                MaterialIds=
+            };*/
 
+
+/*            return View(product);
+*//*        }*//*
+        public IActionResult Update(UpdateProduct updateProduct)
+        {
+           
+
+            Product product = _context.products.Find(updateProduct);
+
+
+            return View(product);
+        }*/
+
+        public IActionResult Subscribe()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                IdentityUser user = _userManager.FindByIdAsync(userId).Result;
+            }
+        }
     }
 }
 
